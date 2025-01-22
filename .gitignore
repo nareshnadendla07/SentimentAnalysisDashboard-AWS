@@ -1,0 +1,45 @@
+# Unignore remote state tfstate
+!remote_state/*
+!remote_state/terraform.tfstate.d/**
+
+# Ignore OS X metadata files
+.history
+.DS_Store
+
+# Ignore vscode
+**.vscode
+
+# Ignore virtual environment
+**venv
+
+# Ignore tfstate
+*.tfstate
+**tfstate.*
+
+# Ignore terraform installs
+**.terraform
+**/.terraform/*
+
+# Ignore pem file(s)
+**.pem
+
+# Don't ask why this happened often enough to warrant inclusion...
+crash.log
+
+# Ignore vim swap files
+**.swp
+
+# Ignore build artifacts
+*.zip
+build-harness
+.build-harness
+
+# Ignore taskcat outputs
+taskcat_outputs/
+
+# Ignore ssh_auth_sock file for tmux/screen ssh-agent sharing
+ssh_auth_sock
+
+# Ignore bak files
+*.bak
+
